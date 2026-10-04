@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Vietnamese is the default; values-en/strings.xml holds the same keys in English.
+     Wording follows the listener web app (indie-house-server/src/control-plane/lang/vi/listen.php). -->
+<resources>
+    <string name="app_name">Indie House</string>
+
+    <!-- Shared -->
+    <string name="back">Quay lại</string>
+    <string name="cancel">Huỷ</string>
+    <string name="retry">Thử lại</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="play">Phát</string>
+    <string name="pause">Tạm dừng</string>
+    <string name="play_label">Phát %1$s</string>
+    <string name="pause_label">Tạm dừng %1$s</string>
+    <string name="shuffle">Phát ngẫu nhiên</string>
+    <string name="shuffle_off">Tắt phát ngẫu nhiên</string>
+    <string name="untitled">Chưa đặt tên</string>
+    <string name="unknown_artist">Nghệ sĩ chưa rõ</string>
+    <string name="options">Tuỳ chọn</string>
+    <string name="options_for">Tuỳ chọn cho %1$s</string>
+    <string name="track_options">Tuỳ chọn bài hát</string>
+    <string name="selected_suffix">%1$s, đang chọn</string>
+    <string name="album">Album</string>
+    <string name="artist">Nghệ sĩ</string>
+    <string name="song">Bài hát</string>
+    <string name="read_more">Đọc thêm</string>
+    <string name="show_less">Thu gọn</string>
+    <string name="about">Giới thiệu</string>
+    <string name="pair">%1$s, %2$s</string>
+    <string name="labelled">%1$s: %2$s</string>
+    <plurals name="songs">
+        <item quantity="other">%d bài</item>
+    </plurals>
+    <plurals name="songs_long">
+        <item quantity="other">%d bài hát</item>
+    </plurals>
+    <plurals name="albums">
+        <item quantity="other">%d album</item>
+    </plurals>
+    <plurals name="artists">
+        <item quantity="other">%d nghệ sĩ</item>
+    </plurals>
+
+    <!-- Navigation and language -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_search">Tìm kiếm</string>
+    <string name="nav_browse">Khám phá</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="account_settings">Tài khoản và cài đặt</string>
+    <string name="settings">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_hint">Chỉ áp dụng trên máy này.</string>
+
+    <!-- Start-up, connect and sign-in -->
+    <string name="startup_opening">Đang mở thư viện…</string>
+    <string name="startup_failed">Không mở được thư viện</string>
+    <string name="change_library">Đổi thư viện</string>
+    <string name="session_expired">Phiên đăng nhập đã hết hạn. Đăng nhập lại để nghe tiếp.</string>
+    <string name="connect_title">Kết nối thư viện</string>
+    <string name="connect_lede">Quét mã QR ở mục Kết nối thư viện trong trang quản trị, hoặc nhập địa chỉ HTTPS của thư viện.</string>
+    <string name="connect_address">Địa chỉ thư viện</string>
+    <string name="connect_button">Kết nối</string>
+    <string name="connect_checking">Đang kiểm tra…</string>
+    <string name="scan_qr">Quét mã QR</string>
+    <string name="scan_qr_description">Quét mã QR bằng camera</string>
+    <string name="connect_note">Chỉ kết nối qua HTTPS. Bạn sẽ xác nhận tên và địa chỉ thư viện trước khi đăng nhập.</string>
+    <string name="connect_confirm_title">Kết nối tới %1$s?</string>
+    <string name="connect_confirm_body">%1$s\n\nChỉ tiếp tục nếu đây đúng là thư viện Indie House của bạn.</string>
+    <string name="verified">Đã xác minh</string>
+    <string name="login_title">Đăng nhập</string>
+    <string name="login_lede">Dùng tài khoản Indie House của bạn.</string>
+    <string name="join_title">Tham gia thư viện</string>
+    <string name="join_lede">Nhập mã mời bạn nhận được, rồi đặt tên và mật khẩu cho tài khoản mới.</string>
+    <string name="invite_code">Mã mời</string>
+    <string name="invite_code_hint">Mã bạn nhận được</string>
+    <string name="display_name">Tên hiển thị</string>
+    <string name="display_name_hint">Tên của bạn</string>
+    <string name="email">Email</string>
+    <string name="email_hint">ban@example.com</string>
+    <string name="password">Mật khẩu</string>
+    <string name="show_password">Hiện mật khẩu</string>
+    <string name="hide_password">Ẩn mật khẩu</string>
+    <string name="login_button">Đăng nhập</string>
+    <string name="logging_in">Đang đăng nhập…</string>
+    <string name="join_button">Tạo tài khoản</string>
+    <string name="joining">Đang tạo tài khoản…</string>
+    <string name="have_invite">Tôi có mã mời</string>
+    <string name="have_account">Tôi đã có tài khoản</string>
+    <string name="need_email_password">Nhập email và mật khẩu.</string>
+    <string name="need_invite_name">Nhập mã mời và tên hiển thị.</string>
+
+    <!-- Errors -->
+    <string name="error_tls">Không tạo được kết nối bảo mật trên máy này. Kiểm tra hỗ trợ TLS và chứng chỉ.</string>
+    <string name="error_network">Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.</string>
+    <string name="error_generic">Kết nối thất bại. Thử lại.</string>
+    <string name="error_not_found">Không tìm thấy trang này.</string>
+    <string name="error_load_title">Không tải được trang</string>
+    <string name="api_identity_changed">Thư viện ở địa chỉ này đã đổi danh tính.</string>
+    <string name="api_connect_first">Hãy kết nối tới một thư viện trước.</string>
+    <string name="api_identity_mismatch">Danh tính thư viện đã thay đổi. Tạm dừng đăng nhập để bảo vệ tài khoản.</string>
+    <string name="api_login_again">Hãy đăng nhập lại.</string>
+    <string name="api_artwork_bad_url">Địa chỉ ảnh bìa không hợp lệ.</string>
+    <string name="api_artwork_missing">Chưa có ảnh bìa.</string>
+    <string name="api_artwork_invalid">Ảnh bìa không hợp lệ.</string>
+    <string name="api_artwork_too_large">Ảnh bìa quá lớn.</string>
+    <string name="api_bad_track">Mã bài hát không hợp lệ.</string>
+    <string name="api_bad_path">Đường dẫn API không hợp lệ.</string>
+    <string name="api_https_required">Cần kết nối HTTPS.</string>
+    <string name="api_origin_mismatch">Địa chỉ thư viện không khớp.</string>
+    <string name="api_redirect">Thư viện chuyển hướng yêu cầu sang nơi khác.</string>
+    <string name="api_failed">Yêu cầu thất bại (%1$d).</string>
+    <string name="api_too_large">Phản hồi quá lớn.</string>
+    <string name="profile_enter_address">Nhập địa chỉ HTTPS của thư viện Indie House.</string>
+    <string name="profile_not_qr">Mã QR này không phải mã kết nối Indie House.</string>
+    <string name="profile_invalid">Thư viện trả về thông tin kết nối không hợp lệ hoặc không được hỗ trợ.</string>
+    <string name="profile_origin">Thư viện vẫn công bố một địa chỉ máy chủ khác. Cập nhật cài đặt instance công khai và stream trên máy chủ.</string>
+
+    <!-- QR scanner -->
+    <string name="qr_title">Quét mã QR kết nối</string>
+    <string name="qr_hint">Mở trang quản trị Indie House, tìm mục Kết nối thư viện rồi đưa mã vào khung.</string>
+    <string name="qr_camera_failed">Không mở được camera</string>
+    <string name="qr_camera_hint">Quay lại và nhập địa chỉ HTTPS của thư viện để kết nối thủ công.</string>
+
+    <!-- Player -->
+    <string name="open_player">Mở trình phát</string>
+    <string name="minimize_player">Thu nhỏ trình phát</string>
+    <string name="mini_failed">Không phát được. Chạm nút phát để thử lại.</string>
+    <string name="playing_from">Đang phát từ</string>
+    <string name="playing_from_label">Đang phát từ %1$s</string>
+    <string name="previous">Bài trước</string>
+    <string name="next">Bài tiếp theo</string>
+    <string name="repeat">Lặp lại</string>
+    <string name="repeat_off">Lặp lại: tắt</string>
+    <string name="repeat_all">Lặp lại: tất cả</string>
+    <string name="repeat_one">Lặp lại: một bài</string>
+    <string name="queue">Hàng đợi</string>
+    <string name="play_failed">Không phát được bài này. Chạm nút phát để thử lại.</string>
+    <string name="play_failed_network">Không phát được bài này. Kiểm tra kết nối rồi thử lại.</string>
+    <string name="seek_position">Vị trí %1$s trên %2$s</string>
+    <string name="quality_word_standard">128 kbps</string>
+    <string name="quality_word_high">320 kbps</string>
+    <string name="quality_word_lossless">lossless</string>
+    <string name="lossless_unsupported">Máy này không phát được bản lossless, đang phát 320 kbps.</string>
+    <string name="queue_now">Đang phát, %1$s</string>
+    <string name="queue_empty">Không còn bài nào phía sau. Chọn một album hoặc playlist để phát tiếp.</string>
+
+    <!-- Track menu and playlists -->
+    <string name="add_to_playlist">Thêm vào playlist</string>
+    <string name="play_next">Phát tiếp theo</string>
+    <string name="will_play_next">Sẽ phát tiếp: %1$s</string>
+    <string name="go_to_album">Đi tới album</string>
+    <string name="go_to_artist">Đi tới nghệ sĩ</string>
+    <string name="remove_from_playlist">Xoá khỏi playlist này</string>
+    <string name="new_playlist">Playlist mới</string>
+    <string name="public_label">Công khai</string>
+    <string name="private_label">Riêng tư</string>
+    <string name="added_to">Đã thêm vào “%1$s”</string>
+    <string name="removed_from_playlist">Đã xoá khỏi playlist</string>
+    <string name="edit_playlist">Sửa playlist</string>
+    <string name="create_playlist">Tạo playlist</string>
+    <string name="create_playlist_note">Đặt tên, thêm mô tả nếu muốn và chọn ai được xem.</string>
+    <string name="playlist_name">Tên playlist</string>
+    <string name="playlist_name_hint">Ví dụ: Nhạc chạy bộ</string>
+    <string name="description">Mô tả</string>
+    <string name="optional">Không bắt buộc</string>
+    <string name="public_hint">Mọi người trong thư viện đều xem được.</string>
+    <string name="save_changes">Lưu thay đổi</string>
+    <string name="create_and_add">Tạo và thêm bài</string>
+    <string name="saving">Đang lưu…</string>
+    <string name="creating">Đang tạo…</string>
+    <string name="name_too_short">Tên cần ít nhất 2 ký tự.</string>
+    <string name="playlist_saved">Đã lưu playlist</string>
+    <string name="playlist_created">Đã tạo “%1$s”</string>
+    <string name="delete_playlist_title">Xoá playlist?</string>
+    <string name="delete_playlist_body">“%1$s” sẽ bị xoá vĩnh viễn. Bài hát vẫn còn trong thư viện.</string>
+    <string name="delete_playlist">Xoá playlist</string>
+    <string name="playlist_deleted">Đã xoá playlist</string>
+    <string name="revoke_title">Thu hồi thiết bị này?</string>
+    <string name="revoke_body">Thiết bị sẽ phải đăng nhập lại. Nếu đó là chiếc Leap này, bạn sẽ quay về màn đăng nhập.</string>
+    <string name="revoke">Thu hồi</string>
+    <string name="device_revoked">Đã thu hồi phiên mobile.</string>
+    <string name="saved">Đã lưu</string>
+    <string name="logout_title">Đăng xuất khỏi Leap?</string>
+    <string name="logout_body">Nhạc đang phát sẽ dừng. Kết nối thư viện vẫn được giữ để lần sau đăng nhập nhanh hơn.</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="change_library_title">Đổi thư viện?</string>
+    <string name="change_library_body">Thao tác này đăng xuất và xoá kết nối tới %1$s trên máy này.</string>
+
+    <!-- Time -->
+    <string name="time_unknown">chưa rõ</string>
+    <string name="time_now">vừa xong</string>
+    <plurals name="minutes_ago">
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%d giờ trước</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <string name="used_time">Dùng %1$s</string>
+    <string name="duration_seconds">%1$d giây</string>
+    <string name="duration_minutes">%1$d phút</string>
+    <string name="duration_hours_minutes">%1$d giờ %2$d phút</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Chào buổi sáng</string>
+    <string name="greeting_noon">Chào buổi trưa</string>
+    <string name="greeting_afternoon">Chào buổi chiều</string>
+    <string name="greeting_evening">Chào buổi tối</string>
+    <string name="recently_played">Nghe gần đây</string>
+    <string name="most_played">Nghe nhiều nhất</string>
+    <string name="popular">Nghe nhiều</string>
+    <string name="open_album">Mở album</string>
+    <string name="new_albums">Album mới</string>
+    <string name="artists">Nghệ sĩ</string>
+    <string name="empty_catalogue_title">Chưa có bài hát nào</string>
+    <string name="empty_catalogue_body">Bài hát sẽ hiện ở đây khi quản trị viên tải nhạc lên.</string>
+
+    <!-- Search -->
+    <string name="search_hint">Tìm bài hát, nghệ sĩ, album</string>
+    <string name="clear_query">Xoá từ khoá</string>
+    <string name="search_failed">Không tìm được lúc này</string>
+    <string name="recent_searches">Tìm kiếm gần đây</string>
+    <string name="clear">Xoá</string>
+    <string name="genres">Thể loại</string>
+    <string name="search_start_title">Tìm bài hát</string>
+    <string name="search_start_body">Tìm theo tên bài, nghệ sĩ, album hoặc thể loại. Gõ không dấu cũng được.</string>
+    <string name="no_results_title">Không tìm thấy “%1$s”</string>
+    <string name="no_results_body">Kiểm tra chính tả hoặc thử từ khoá khác.</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_songs">Bài hát</string>
+    <string name="filter_artists">Nghệ sĩ</string>
+    <string name="filter_albums">Album</string>
+    <string name="search_context">Tìm “%1$s”</string>
+    <string name="top_result">Kết quả phù hợp nhất</string>
+
+    <!-- Browse, library and detail pages -->
+    <string name="new_tracks">Mới thêm</string>
+    <string name="all_albums">Album</string>
+    <string name="all_artists">Nghệ sĩ</string>
+    <string name="no_albums">Chưa có album nào</string>
+    <string name="no_artists">Chưa có nghệ sĩ nào</string>
+    <string name="load_more">Tải thêm</string>
+    <string name="loading">Đang tải…</string>
+    <string name="end_of_list">Đã hiện hết %1$s</string>
+    <string name="playlists">Playlist</string>
+    <string name="create_playlist_hint">Đặt tên và chọn ai được xem</string>
+    <string name="listening_history">Lịch sử nghe</string>
+    <string name="history_empty_title">Chưa có lịch sử nghe</string>
+    <string name="history_empty_body">Bài bạn nghe trên Leap, iPhone hoặc web sẽ hiện ở đây.</string>
+    <string name="playlist_description">Playlist %1$s</string>
+    <string name="album_empty">Album này chưa có bài hát</string>
+    <string name="popular_heading">Phổ biến</string>
+    <plurals name="show_more_songs">
+        <item quantity="other">Xem thêm %d bài</item>
+    </plurals>
+    <string name="releases">Album và đĩa đơn</string>
+    <string name="playlist_public">Playlist công khai</string>
+    <string name="playlist_private">Playlist riêng tư</string>
+    <string name="playlist_empty_title">Playlist này đang trống</string>
+    <string name="playlist_empty_body">Mở menu của một bài hát rồi chọn Thêm vào playlist.</string>
+    <string name="find_songs">Tìm bài hát</string>
+
+    <!-- Settings -->
+    <string name="settings_library">Thư viện</string>
+    <string name="verified_on_connect">Đã xác minh tên và địa chỉ khi kết nối</string>
+    <string name="settings_playback">Phát nhạc</string>
+    <string name="quality_standard">128 kbps</string>
+    <string name="quality_standard_hint">Tiết kiệm dữ liệu, hợp với mạng di động.</string>
+    <string name="quality_lossless">Lossless</string>
+    <string name="quality_lossless_hint">FLAC 16-bit/44,1 kHz, khoảng 1 Mbps, khi bản gốc là lossless. Nếu máy không phát được FLAC thì nghe 320 kbps.</string>
+    <string name="quality_high">320 kbps</string>
+    <string name="quality_high_hint">Tới 320 kbps khi bản phát hành có sẵn.</string>
+    <string name="autoplay">Tự phát bài tiếp theo</string>
+    <string name="autoplay_hint">Phát tiếp bài kế trong album hoặc playlist.</string>
+    <string name="record_history">Ghi lịch sử nghe</string>
+    <string name="record_history_hint">Dùng cho mục Nghe gần đây và Lịch sử nghe.</string>
+    <string name="settings_devices">Thiết bị</string>
+    <string name="devices_hint">Bạn có thể thu hồi quyền đăng nhập của từng thiết bị.</string>
+    <string name="no_devices">Chưa có thiết bị mobile nào đang đăng nhập.</string>
+    <string name="mobile_device">Thiết bị mobile</string>
+    <string name="settings_account">Tài khoản</string>
+    <string name="settings_legal">Pháp lý</string>
+    <string name="legal_terms">Điều khoản sử dụng</string>
+    <string name="legal_terms_hint">Những gì bạn đồng ý khi dùng thư viện này</string>
+    <string name="legal_privacy">Chính sách quyền riêng tư</string>
+    <string name="legal_privacy_hint">Dữ liệu nào được lưu, dùng vào việc gì và ai thấy</string>
+    <string name="account_hint">Đổi tên, email hoặc ảnh đại diện trong Cài đặt trên trang web của thư viện.</string>
+    <string name="join_consent">Khi tạo tài khoản, bạn đồng ý với %1$s và đã đọc %2$s.</string>
+    <string name="version">Indie House cho BlackBerry Leap, bản %1$s</string>
+
+    <!-- Layout previews -->
+    <string name="preview_track">Một bài trong thư viện</string>
+</resources>

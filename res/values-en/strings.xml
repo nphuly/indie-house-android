@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English strings; keys mirror values/strings.xml (Vietnamese). -->
+<resources>
+    <string name="app_name">Indie House</string>
+
+    <!-- Shared -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Try again</string>
+    <string name="see_all">See all</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="play_label">Play %1$s</string>
+    <string name="pause_label">Pause %1$s</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="shuffle_off">Turn off shuffle</string>
+    <string name="untitled">Untitled</string>
+    <string name="unknown_artist">Unknown artist</string>
+    <string name="options">More options</string>
+    <string name="options_for">More options for %1$s</string>
+    <string name="track_options">Song options</string>
+    <string name="selected_suffix">%1$s, selected</string>
+    <string name="album">Album</string>
+    <string name="artist">Artist</string>
+    <string name="song">Song</string>
+    <string name="read_more">Read more</string>
+    <string name="show_less">Show less</string>
+    <string name="about">About</string>
+    <string name="pair">%1$s, %2$s</string>
+    <string name="labelled">%1$s: %2$s</string>
+    <plurals name="songs">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="songs_long">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <plurals name="albums">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="artists">
+        <item quantity="one">%d artist</item>
+        <item quantity="other">%d artists</item>
+    </plurals>
+
+    <!-- Navigation and language -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_library">Library</string>
+    <string name="account_settings">Account and settings</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_en">English</string>
+    <string name="language_hint">Applies to this device only.</string>
+
+    <!-- Start-up, connect and sign-in -->
+    <string name="startup_opening">Opening your library…</string>
+    <string name="startup_failed">Couldn\'t open the library</string>
+    <string name="change_library">Change library</string>
+    <string name="session_expired">Your session expired. Log in again to keep listening.</string>
+    <string name="connect_title">Connect to a library</string>
+    <string name="connect_lede">Scan the QR code under Connect a library in the admin panel, or enter the library\'s HTTPS address.</string>
+    <string name="connect_address">Library address</string>
+    <string name="connect_button">Connect</string>
+    <string name="connect_checking">Checking…</string>
+    <string name="scan_qr">Scan QR code</string>
+    <string name="scan_qr_description">Scan a QR code with the camera</string>
+    <string name="connect_note">HTTPS only. You\'ll confirm the library\'s name and address before logging in.</string>
+    <string name="connect_confirm_title">Connect to %1$s?</string>
+    <string name="connect_confirm_body">%1$s\n\nOnly continue if this is your Indie House library.</string>
+    <string name="verified">Verified</string>
+    <string name="login_title">Log in</string>
+    <string name="login_lede">Use your Indie House account.</string>
+    <string name="join_title">Join this library</string>
+    <string name="join_lede">Enter your invitation code, then choose a name and password for the new account.</string>
+    <string name="invite_code">Invitation code</string>
+    <string name="invite_code_hint">The code you received</string>
+    <string name="display_name">Display name</string>
+    <string name="display_name_hint">Your name</string>
+    <string name="email">Email</string>
+    <string name="email_hint">you@example.com</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="login_button">Log in</string>
+    <string name="logging_in">Logging in…</string>
+    <string name="join_button">Create account</string>
+    <string name="joining">Creating account…</string>
+    <string name="have_invite">I have an invitation</string>
+    <string name="have_account">I already have an account</string>
+    <string name="need_email_password">Enter your email and password.</string>
+    <string name="need_invite_name">Enter the invitation code and a display name.</string>
+
+    <!-- Errors -->
+    <string name="error_tls">Couldn\'t make a secure connection on this device. Check TLS support and certificates.</string>
+    <string name="error_network">Couldn\'t reach the server. Check your connection and try again.</string>
+    <string name="error_generic">Connection failed. Try again.</string>
+    <string name="error_not_found">Page not found.</string>
+    <string name="error_load_title">Couldn\'t load this page</string>
+    <string name="api_identity_changed">The library at this address has a different identity now.</string>
+    <string name="api_connect_first">Connect to a library first.</string>
+    <string name="api_identity_mismatch">The library\'s identity changed. Logging in is paused to protect your account.</string>
+    <string name="api_login_again">Log in again.</string>
+    <string name="api_artwork_bad_url">Invalid artwork address.</string>
+    <string name="api_artwork_missing">No artwork yet.</string>
+    <string name="api_artwork_invalid">Invalid artwork.</string>
+    <string name="api_artwork_too_large">The artwork is too large.</string>
+    <string name="api_bad_track">Invalid song ID.</string>
+    <string name="api_bad_path">Invalid API path.</string>
+    <string name="api_https_required">HTTPS is required.</string>
+    <string name="api_origin_mismatch">The library address doesn\'t match.</string>
+    <string name="api_redirect">The library redirected the request somewhere else.</string>
+    <string name="api_failed">Request failed (%1$d).</string>
+    <string name="api_too_large">The response is too large.</string>
+    <string name="profile_enter_address">Enter the HTTPS address of your Indie House library.</string>
+    <string name="profile_not_qr">This QR code isn\'t an Indie House connection code.</string>
+    <string name="profile_invalid">The library returned connection details that are invalid or not supported.</string>
+    <string name="profile_origin">The library still announces a different server address. Update the public instance and stream settings on the server.</string>
+
+    <!-- QR scanner -->
+    <string name="qr_title">Scan the connection code</string>
+    <string name="qr_hint">Open the Indie House admin panel, find Connect a library, and hold the code inside the frame.</string>
+    <string name="qr_camera_failed">Couldn\'t open the camera</string>
+    <string name="qr_camera_hint">Go back and enter the library\'s HTTPS address instead.</string>
+
+    <!-- Player -->
+    <string name="open_player">Open player</string>
+    <string name="minimize_player">Minimize player</string>
+    <string name="mini_failed">Couldn\'t play. Tap play to try again.</string>
+    <string name="playing_from">Playing from</string>
+    <string name="playing_from_label">Playing from %1$s</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Repeat: off</string>
+    <string name="repeat_all">Repeat: all</string>
+    <string name="repeat_one">Repeat: one song</string>
+    <string name="queue">Queue</string>
+    <string name="play_failed">Couldn\'t play this song. Tap play to try again.</string>
+    <string name="play_failed_network">Couldn\'t play this song. Check your connection and try again.</string>
+    <string name="seek_position">%1$s of %2$s</string>
+    <string name="quality_word_standard">128 kbps</string>
+    <string name="quality_word_high">320 kbps</string>
+    <string name="quality_word_lossless">lossless</string>
+    <string name="lossless_unsupported">This device can\'t play lossless, so you\'re hearing 320 kbps.</string>
+    <string name="queue_now">Now playing, %1$s</string>
+    <string name="queue_empty">Nothing up next. Pick an album or playlist to keep going.</string>
+
+    <!-- Track menu and playlists -->
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="play_next">Play next</string>
+    <string name="will_play_next">Playing next: %1$s</string>
+    <string name="go_to_album">Go to album</string>
+    <string name="go_to_artist">Go to artist</string>
+    <string name="remove_from_playlist">Remove from this playlist</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="public_label">Public</string>
+    <string name="private_label">Private</string>
+    <string name="added_to">Added to “%1$s”</string>
+    <string name="removed_from_playlist">Removed from playlist</string>
+    <string name="edit_playlist">Edit playlist</string>
+    <string name="create_playlist">New playlist</string>
+    <string name="create_playlist_note">Give it a name, add a description if you like, and choose who can see it.</string>
+    <string name="playlist_name">Name</string>
+    <string name="playlist_name_hint">e.g. Running mix</string>
+    <string name="description">Description</string>
+    <string name="optional">Optional</string>
+    <string name="public_hint">Everyone in this library can see it.</string>
+    <string name="save_changes">Save changes</string>
+    <string name="create_and_add">Create and add</string>
+    <string name="saving">Saving…</string>
+    <string name="creating">Creating…</string>
+    <string name="name_too_short">The name needs at least 2 characters.</string>
+    <string name="playlist_saved">Playlist saved</string>
+    <string name="playlist_created">Created “%1$s”</string>
+    <string name="delete_playlist_title">Delete playlist?</string>
+    <string name="delete_playlist_body">“%1$s” will be deleted for good. The songs stay in the library.</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="playlist_deleted">Playlist deleted</string>
+    <string name="revoke_title">Revoke this device?</string>
+    <string name="revoke_body">The device will have to log in again. If it\'s this Leap, you\'ll go back to the login screen.</string>
+    <string name="revoke">Revoke</string>
+    <string name="device_revoked">Device session revoked.</string>
+    <string name="saved">Saved</string>
+    <string name="logout_title">Log out of this Leap?</string>
+    <string name="logout_body">Music will stop. The library connection stays, so logging in next time is quicker.</string>
+    <string name="logout">Log out</string>
+    <string name="change_library_title">Change library?</string>
+    <string name="change_library_body">This logs you out and removes the connection to %1$s from this device.</string>
+
+    <!-- Time -->
+    <string name="time_unknown">unknown</string>
+    <string name="time_now">just now</string>
+    <plurals name="minutes_ago">
+        <item quantity="one">%d minute ago</item>
+        <item quantity="other">%d minutes ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour ago</item>
+        <item quantity="other">%d hours ago</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+    <string name="used_time">Used %1$s</string>
+    <string name="duration_seconds">%1$d sec</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours_minutes">%1$d hr %2$d min</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_noon">Hello</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="recently_played">Recently played</string>
+    <string name="most_played">Most played</string>
+    <string name="popular">Popular</string>
+    <string name="open_album">Open album</string>
+    <string name="new_albums">New albums</string>
+    <string name="artists">Artists</string>
+    <string name="empty_catalogue_title">No songs yet</string>
+    <string name="empty_catalogue_body">Songs show up here once an admin uploads music.</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search songs, artists, albums</string>
+    <string name="clear_query">Clear search</string>
+    <string name="search_failed">Search isn\'t working right now</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="clear">Clear</string>
+    <string name="genres">Genres</string>
+    <string name="search_start_title">Find music</string>
+    <string name="search_start_body">Search by song, artist, album or genre.</string>
+    <string name="no_results_title">No results for “%1$s”</string>
+    <string name="no_results_body">Check the spelling or try another search.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_songs">Songs</string>
+    <string name="filter_artists">Artists</string>
+    <string name="filter_albums">Albums</string>
+    <string name="search_context">Search “%1$s”</string>
+    <string name="top_result">Top result</string>
+
+    <!-- Browse, library and detail pages -->
+    <string name="new_tracks">Recently added</string>
+    <string name="all_albums">Albums</string>
+    <string name="all_artists">Artists</string>
+    <string name="no_albums">No albums yet</string>
+    <string name="no_artists">No artists yet</string>
+    <string name="load_more">Load more</string>
+    <string name="loading">Loading…</string>
+    <string name="end_of_list">That\'s all %1$s</string>
+    <string name="playlists">Playlists</string>
+    <string name="create_playlist_hint">Name it and choose who can see it</string>
+    <string name="listening_history">Listening history</string>
+    <string name="history_empty_title">No listening history yet</string>
+    <string name="history_empty_body">Songs you play on the Leap, iPhone or web show up here.</string>
+    <string name="playlist_description">Playlist %1$s</string>
+    <string name="album_empty">This album has no songs yet</string>
+    <string name="popular_heading">Popular</string>
+    <plurals name="show_more_songs">
+        <item quantity="one">Show %d more song</item>
+        <item quantity="other">Show %d more songs</item>
+    </plurals>
+    <string name="releases">Albums and singles</string>
+    <string name="playlist_public">Public playlist</string>
+    <string name="playlist_private">Private playlist</string>
+    <string name="playlist_empty_title">This playlist is empty</string>
+    <string name="playlist_empty_body">Open a song\'s menu and choose Add to playlist.</string>
+    <string name="find_songs">Find songs</string>
+
+    <!-- Settings -->
+    <string name="settings_library">Library</string>
+    <string name="verified_on_connect">Name and address verified when connecting</string>
+    <string name="settings_playback">Playback</string>
+    <string name="quality_standard">128 kbps</string>
+    <string name="quality_standard_hint">Saves data; suits mobile networks.</string>
+    <string name="quality_lossless">Lossless</string>
+    <string name="quality_lossless_hint">FLAC 16-bit/44.1 kHz, about 1 Mbps, when the original is lossless. Devices that can\'t play FLAC get 320 kbps.</string>
+    <string name="quality_high">320 kbps</string>
+    <string name="quality_high_hint">Up to 320 kbps when the release has it.</string>
+    <string name="autoplay">Play the next song automatically</string>
+    <string name="autoplay_hint">Keep playing the next song in an album or playlist.</string>
+    <string name="record_history">Record listening history</string>
+    <string name="record_history_hint">Powers Recently played and Listening history.</string>
+    <string name="settings_devices">Devices</string>
+    <string name="devices_hint">You can revoke access for each device.</string>
+    <string name="no_devices">No mobile devices are logged in.</string>
+    <string name="mobile_device">Mobile device</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_legal">Legal</string>
+    <string name="legal_terms">Terms of use</string>
+    <string name="legal_terms_hint">What you agree to when using this library</string>
+    <string name="legal_privacy">Privacy policy</string>
+    <string name="legal_privacy_hint">What is stored, what it is used for and who sees it</string>
+    <string name="account_hint">Change your name, email or picture in Settings on the library\'s website.</string>
+    <string name="join_consent">By creating an account, you agree to the %1$s and confirm you have read the %2$s.</string>
+    <string name="version">Indie House for BlackBerry Leap, version %1$s</string>
+
+    <!-- Layout previews -->
+    <string name="preview_track">A song in the library</string>
+</resources>

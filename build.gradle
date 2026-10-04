@@ -1,0 +1,6 @@
+plugins {
+    id 'com.android.application' version '9.0.1' apply false
+}
+
+// The original build.sh writes to build/; keep Gradle's output separate.
+layout.buildDirectory = file('gradle-build')

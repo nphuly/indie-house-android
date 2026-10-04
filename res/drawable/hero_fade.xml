@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fades the stage photo into the page background. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:angle="270" android:startColor="#3307090e" android:centerColor="#9907090e" android:endColor="@color/bg" />
+</shape>

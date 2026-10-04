@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mirrors the listener tokens in indie-house-server/src/control-plane/resources/css/app.css; Theme.java holds the same values for code. -->
+<resources>
+    <color name="bg">#07090e</color>
+    <color name="ink">#0a0b0f</color>
+    <color name="surface">#0e1118</color>
+    <color name="raised">#151a25</color>
+    <color name="hover">#1d2432</color>
+    <color name="field">#0b0e14</color>
+    <color name="white">#eef1f6</color>
+    <color name="soft">#bcc3d0</color>
+    <color name="muted">#858ea0</color>
+    <color name="faint">#566074</color>
+    <color name="accent">#f7e23b</color>
+    <color name="accent_bright">#fff07a</color>
+    <color name="pink">#ff3d81</color>
+    <color name="cyan">#27e3ec</color>
+    <color name="danger">#ff5a4f</color>
+    <color name="line">#1feef1f6</color>
+    <color name="pressed">#14eef1f6</color>
+    <color name="danger_wash">#29ff5a4f</color>
+</resources>

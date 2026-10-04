@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="house.indie.legacy"
+    android:versionCode="11"
+    android:versionName="0.11">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <!-- No adb backup: the preferences hold the refresh token. -->
+    <application android:label="Indie House" android:icon="@drawable/ic_launcher" android:theme="@style/IndieApp"
+        android:hardwareAccelerated="true" android:allowBackup="false">
+        <activity android:name=".MainActivity" android:exported="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QrScanActivity" android:screenOrientation="portrait" />
+    </application>
+</manifest>

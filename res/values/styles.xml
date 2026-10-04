@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window theme: dark from the first frame, no Holo action bar. -->
+    <style name="IndieApp" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:textColorHighlight">#66f7e23b</item>
+        <item name="android:textColorHint">@color/faint</item>
+    </style>
+
+    <!-- Fonts are applied in code from the android:tag values (Theme.applyFonts); API 18 cannot name asset fonts in XML. -->
+    <style name="IndieText">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="IndieDisplay" parent="IndieText">
+        <item name="android:textSize">30sp</item>
+        <item name="android:lineSpacingMultiplier">0.95</item>
+    </style>
+    <style name="IndieBody" parent="IndieText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/soft</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+    <style name="IndieEyebrow" parent="IndieText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="IndieError" parent="IndieText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/error_background</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="IndieInput">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/faint</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:background">@drawable/input_background</item>
+    </style>
+    <style name="IndieButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+    <style name="IndieButton.Primary" parent="IndieButton">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:background">@drawable/button_primary</item>
+    </style>
+    <style name="IndieButton.Ghost" parent="IndieButton">
+        <item name="android:textColor">@color/soft</item>
+        <item name="android:background">@drawable/button_ghost</item>
+    </style>
+
+    <!-- Bottom sheets, confirmations and the full-screen player. -->
+    <style name="IndieSheet" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.64</item>
+        <item name="android:windowAnimationStyle">@style/IndieSheetMotion</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+    <style name="IndieSheetMotion">
+        <item name="android:windowEnterAnimation">@anim/sheet_in</item>
+        <item name="android:windowExitAnimation">@anim/sheet_out</item>
+    </style>
+    <style name="IndieDialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.64</item>
+        <item name="android:windowAnimationStyle">@style/IndieDialogMotion</item>
+    </style>
+    <style name="IndieDialogMotion">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+    <style name="IndiePlayer" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/IndieSheetMotion</item>
+    </style>
+</resources>
